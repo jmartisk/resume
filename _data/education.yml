@@ -1,13 +1,16 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
+- degree: Bachelor's degree
+  uni: Brno University of Technology, Faculty of Information Technology
+  year: 2011
   awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+    - award: Finished with weighted ECTS average 1.4; that is 14th place
+        out of 409 successful students
+    - award: "Bachelor's thesis topic: Electrical outlet management in laboratory over Ethernet
+        network using a touch panel"
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: Master's degree
+  uni: Masaryk University in Brno, Faculty of Informatics
+  year: 2013
+  awards:
+    - award: "Masters's thesis topic: Implement WS-Eventing specification for Apache
+        CXF framework"
