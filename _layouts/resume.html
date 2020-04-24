@@ -97,24 +97,24 @@
       {% endif %}
 
 
-      {% if site.resume_section_projects %}
-      <!-- begin Projects -->
+      {% if site.resume_section_conferences %}
+      <!-- begin Conferences -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2>Speaking at conferences</h2>
         </header>
 
-        {% for project in site.data.projects %}
+        {% for conference in site.data.conferences %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-          <p class="resume-item-copy">{{ project.description }}</p>
+          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ conference.name }}</a>{% else %}{{ conference.name }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ conference.role }}  &bull; {{ conference.duration }}</h4>
+          <p class="resume-item-copy">Topic: {{ conference.topic }}</p>
         </div>
         {% endfor %}
 
       </section>
-      <!-- end Projects -->
+      <!-- end Conferences -->
       {% endif %}
 
       {% if site.resume_section_skills %}
@@ -140,7 +140,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Recognition</h2>
+          <h2>Courses and certifications</h2>
         </header>
 
         {% for recognition in site.data.recognitions %}
@@ -175,6 +175,28 @@
       <!-- end Associations -->
       {% endif %}
 
+
+
+      {% if site.resume_section_languages %}
+      <!-- begin Languages -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Languages</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for language in site.data.languages %}
+            <li>{{ language.description }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Languages -->
+      {% endif %}
+
       {% if site.resume_section_interests %}
       <!-- begin Interests -->
       <section class="content-section">
@@ -194,6 +216,8 @@
       </section>
       <!-- end Interests -->
       {% endif %}
+
+
 
       {% if site.resume_section_links %}
       <!-- begin Links -->
@@ -231,10 +255,6 @@
       <!-- end Print Social Links -->
       {% endif %}
 
-      <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
-      </footer>
 
     </div>
 

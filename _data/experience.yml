@@ -1,19 +1,91 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: Red Hat
+  position: Quality Engineer - JBoss Enterprise Application Platform
+  duration: May 2011 &mdash; Dec 2017
+  summary:
+    Since October 2015, I was also a technical lead for a team of 10 quality engineers<br/><br/>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+    JBoss EAP is a platform for developing and running applications based on Java EE.<br/><br/>
 
+    Technical work
+    <ul class="resume-item-list">
+      <li>Test development and execution</li>
+      <li>Bugfix verification</li>
+      <li>Lots of debugging, root cause analysis</li>
+      <li>Customer use case analysis</li>
+      <li>Reporting bugs (and in some cases fixing them myself)</li>
+      <li>Documentation checks</li>
+      <li>Reporting bugs found in 3rd party components to their vendors</li>
+      <li>Developing internal tooling for the team to use</li>
+    </ul>
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+    Technical lead work
+    <ul class="resume-item-list">
+      <li>Planning and organizing work</li>
+      <li>Coming up with ideas for improving test coverage and optimizing existing tests</li>
+      <li>Design and core reviews</li>
+      <li>Making sure tasks are delivered on time and in appropriate quality</li>
+      <li>Mentoring, providing technical advice to team members</li>
+      <li>Helping to define priorities</li>
+      <li>Making sure processes are being followed correctly</li>
+    </ul>
+
+    List of technologies worked with, most of them in the context of JBoss EAP
+    <ul class="resume-item-list">
+      <li>Java/Jakarta EE (EJB server and client, JCA, JPA, Servlets, Batch Processing, Bean Validation, JAX-WS, JAX-RS, Distributed transactions and disaster recovery)</li>
+      <li>JBoss Remoting (library and binary protocol for network communication)</li>
+      <li>Security (Elytron)</li>
+      <li>Clustering capabilities (state replication over multicast protocols, failover, load balancing)</li>
+      <li>Running in cloud environments (OpenShift, Azure)</li>
+      <li>Selenium (for testing the administration console)</li>
+      <li>Internal management APIs of the server</li>
+      <li>Server patching mechanism</li>
+    </ul>
+
+- company: Red Hat
+  position: Senior Quality Engineer - JBoss Data Virtualization
+  duration:  Jan 2018 &mdash; Oct 2018
+  summary: JBoss DV serves as platform for creating and managing virtual databases
+    – customized views over data from multiple heterogenous sources
+    (the ones listed below), used mostly for data analytics / business
+    intelligence purposes.<br/><br/>
+
+    Overall, the technical work is similar to that on JBoss EAP, I‘ll just list the
+    used technologies and DV-specific functionality here
+    <ul class="resume-item-list">
+      <li>Traditional relational databases (Oracle, PostgreSQL, MySQL,
+    Microsoft, IBM DB2, SAP HANA, Sybase) </li>
+      <li>NoSQL databases and tools (MongoDB, Cassandra, Couchbase,
+    HBase)</li>
+      <li>Querying engines (Impala, Presto)</li>
+      <li>Data warehousing (Apache Hive, Netezza, Amazon Redshift)</li>
+      <li>Data analytics and processing platforms (Apache Spark, Vertica)</li>
+      <li>Other data storage and exchange tech - CSV, Google Spreadsheets, XML, OData (Apache Olingo)</li>
+    </ul>
+
+- company: Red Hat
+  position: Senior Software Engineer - Quarkus, SmallRye, Hawkular Metrics
+  duration:   Nov 2018  &mdash; Present
+  summary:
+    Quarkus related work
+    <ul class="resume-item-list">
+      <li>Engineering work on Quarkus, a platform for developing microservices in Java, Scala and Kotlin</li>
+      <li>Components most often contributed to include the integration of SmallRye projects (underlying libraries
+        needed to support MicroProfile)</li>
+    </ul>
+
+    MicroProfile related work
+    <ul class="resume-item-list">
+      <li>One of the main drivers behind the MicroProfile Metrics specification under the Eclipse foundation - working
+        together with other vendors (mostly IBM and Oracle)</li>
+      <li>Project lead of SmallRye Metrics, an implementation of MicroProfile Metrics</li>
+      <li>Contributing to implementations of other MicroProfile components (GraphQL, Config, Health, Fault Tolerance, OpenTracing)
+    </ul>
+
+    Hawkular Metrics related work
+    <ul class="resume-item-list">
+      <li>Hawkular Metrics is a monitoring solution for applications deployed in an OpenShift cluster. It's based on
+        a Cassandra database and uses a reactive backend using rxjava.</li>
+      <li>Assignments - Sustaining engineering work on Hawkular Metrics (fixing problems reported by customers)</li>
+    </ul>
+
