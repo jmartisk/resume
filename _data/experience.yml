@@ -79,7 +79,8 @@
       <li>One of the main drivers behind the MicroProfile Metrics specification under the Eclipse foundation - working
         together with other vendors (mostly IBM and Oracle)</li>
       <li>Project lead of SmallRye Metrics, an implementation of MicroProfile Metrics</li>
-      <li>Contributing to implementations of other MicroProfile components (GraphQL, Config, Health, Fault Tolerance, OpenTracing)
+      <li>Work on GraphQL, especially the client side</li>
+      <li>Contributing to implementations of other MicroProfile components (Config, Health, Fault Tolerance, OpenTracing)
     </ul>
 
     Hawkular Metrics related work
