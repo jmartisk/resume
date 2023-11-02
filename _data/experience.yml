@@ -64,8 +64,8 @@
     </ul>
 
 - company: Red Hat
-  position: Senior Software Engineer - Quarkus, SmallRye, Hawkular Metrics
-  duration:   Nov 2018  &mdash; Present
+  position: Principal Software Engineer - Quarkus, SmallRye
+  duration:   Nov 2018 (Principal since April 2023) &mdash; Present
   summary:
     Quarkus related work
     <ul class="resume-item-list">
@@ -79,7 +79,7 @@
       <li>One of the main drivers behind the MicroProfile Metrics specification under the Eclipse foundation - working
         together with other vendors (mostly IBM and Oracle)</li>
       <li>Project lead of SmallRye Metrics, an implementation of MicroProfile Metrics</li>
-      <li>Work on GraphQL, especially the client side</li>
+      <li>Work on GraphQL, both client and server side</li>
       <li>Contributing to implementations of other MicroProfile components (Config, Health, Fault Tolerance, OpenTracing)
     </ul>
 
