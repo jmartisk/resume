@@ -5,3 +5,7 @@
 - name: DevConf.cz (Brno)
   topic: "Quarkus: Java development turned into delight"
   duration: January 2020
+
+- name: JNation (Coimbra, Portugal)
+  topic: "Writing Queryable API's with GraphQL"
+  duration: June 2022
