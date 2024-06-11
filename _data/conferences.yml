@@ -2,10 +2,18 @@
   topic: What's new in MicroProfile Metrics 2.0
   duration: May 2019
 
-- name: DevConf.cz (Brno)
+- name: DevConf.cz (Brno, Czech Republic)
   topic: "Quarkus: Java development turned into delight"
   duration: January 2020
 
 - name: JNation (Coimbra, Portugal)
-  topic: "Writing Queryable API's with GraphQL"
+  topic: "Writing Queryable APIs with GraphQL"
   duration: June 2022
+
+- name: GeeCON (Krakow, Poland)
+  topic: "Quarkus meets AI: Developing AI applications in Java with Quarkus and Langchain4j"
+  duration: May 2024
+
+- name: DevConf.cz (Brno, Czech Republic)
+  topic: "Quarkus meets AI: Developing AI applications in Java with Quarkus and Langchain4j"
+  duration: June 2024
