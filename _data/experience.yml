@@ -66,12 +66,14 @@
 - company: Red Hat
   position: Principal Software Engineer - Quarkus, SmallRye
   duration:   Nov 2018 (Principal since April 2023) &mdash; Present
-  summary:
-    Quarkus related work
+  summary: |
+    Quarkus work
     <ul class="resume-item-list">
-      <li>Engineering work on Quarkus, a platform for developing microservices in Java, Scala and Kotlin</li>
-      <li>Components most often contributed to include the integration of SmallRye projects (underlying libraries
-        needed to support MicroProfile)</li>
+      <li>Engineering work on Quarkus, a platform for developing cloud-native microservices in Java, Scala and Kotlin</li>
+      <li>Work on the Quarkus LangChain4j extension (integrating the world of LLMs into Quarkus)</li>
+      <li>Lead developer of GraphQL capabilities (server+client)</li>
+      <li>Lead developer of MicroProfile Metrics capabilities</li>
+      <li>In charge of CVE (security issues) management</li>
     </ul>
 
     MicroProfile related work
