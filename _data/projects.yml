@@ -5,7 +5,7 @@
 - project: Reflection Reduction for GraphQL Typesafe Client for Quarkus
   role: Bachelor's thesis supervisor
   duration: 2024
-  url: https://is.muni.cz/auth/th/zpr6l/
+  url: "https://is.muni.cz/auth/th/zpr6l/"
   description: > 
     Supervised a Bachelor's thesis project that improves Quarkus by moving the scanning of GraphQL client APIs to build time.
     The thesis was awarded A and the Dean's award.
