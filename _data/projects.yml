@@ -7,10 +7,3 @@
   duration: 2024
   url: "https://is.muni.cz/auth/th/zpr6l/"
   description: Supervised a Bachelor's thesis project that improves Quarkus by moving the scanning of GraphQL client APIs to build time. The thesis was awarded A and the Dean's award.
-
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
