@@ -1,5 +1,58 @@
 # Jobs
 - company: Red Hat
+  position: Principal Software Engineer - Quarkus, SmallRye
+  duration:   Nov 2018 (Principal since April 2023) &mdash; Present
+  summary: |
+    Quarkus work
+    <ul class="resume-item-list">
+      <li>Engineering work on Quarkus, a platform for developing cloud-native microservices in Java, Scala and Kotlin</li>
+      <li>Work on the Quarkus LangChain4j extension (integrating the world of LLMs into Quarkus) and LangChain4j itself. For example, I implemented the MCP (Model Context Protocol) client capabilities in LangChain4j.</li>
+      <li>Lead developer of GraphQL capabilities (server+client)</li>
+      <li>Lead developer of MicroProfile Metrics capabilities</li>
+      <li>In charge of CVE (security issues) management and improving the related processes, making sure all relevant security issues are fixed in a timely manner, including embargoed ones</li>
+      <li>Maintaining parts of the product-building infrastructure (deployed in OpenShift)</li>
+      <li>Coordination of LTS releases (deciding which fixes to backport to older streams, making sure the backports don't break anything, performing the actual releases)</li>
+    </ul>
+
+    MicroProfile related work
+    <ul class="resume-item-list">
+      <li>One of the main drivers behind the MicroProfile Metrics specification under the Eclipse foundation - working
+        together with other vendors (mostly IBM and Oracle)</li>
+      <li>Project lead of SmallRye Metrics, an implementation of MicroProfile Metrics</li>
+      <li>Work on GraphQL, both client and server side</li>
+      <li>Contributing to implementations of other MicroProfile components (Config, Health, Fault Tolerance, OpenTracing, GraphQL)</li>
+      <li>Cross-functional collaboration: being a liaison for the WildFly team for their integration of MicroProfile components</li>
+    </ul>
+
+    Hawkular Metrics related work
+    <ul class="resume-item-list">
+      <li>Hawkular Metrics is a monitoring solution for applications deployed in an OpenShift cluster. It's based on
+        a Cassandra database and uses a reactive backend using rxjava.</li>
+      <li>Assignments - Sustaining engineering work on Hawkular Metrics (fixing problems reported by customers)</li>
+    </ul>
+
+- company: Red Hat
+  position: Senior Quality Engineer - JBoss Data Virtualization
+  duration:  Jan 2018 &mdash; Oct 2018
+  summary: JBoss DV serves as platform for creating and managing virtual databases
+    – customized views over data from multiple heterogenous sources
+    (the ones listed below), used mostly for data analytics / business
+    intelligence purposes.<br/><br/>
+
+    Overall, the technical work is similar to that on JBoss EAP, I‘ll just list the
+    used technologies and DV-specific functionality here
+    <ul class="resume-item-list">
+      <li>Traditional relational databases (Oracle, PostgreSQL, MySQL,
+    Microsoft, IBM DB2, SAP HANA, Sybase) </li>
+      <li>NoSQL databases and tools (MongoDB, Cassandra, Couchbase,
+    HBase)</li>
+      <li>Querying engines (Impala, Presto)</li>
+      <li>Data warehousing (Apache Hive, Netezza, Amazon Redshift)</li>
+      <li>Data analytics and processing platforms (Apache Spark, Vertica)</li>
+      <li>Other data storage and exchange tech - CSV, Google Spreadsheets, XML, OData (Apache Olingo)</li>
+    </ul>
+
+- company: Red Hat
   position: Quality Engineer - JBoss Enterprise Application Platform
   duration: May 2011 &mdash; Dec 2017
   summary:
@@ -41,57 +94,3 @@
       <li>Internal management APIs of the server</li>
       <li>Server patching mechanism</li>
     </ul>
-
-- company: Red Hat
-  position: Senior Quality Engineer - JBoss Data Virtualization
-  duration:  Jan 2018 &mdash; Oct 2018
-  summary: JBoss DV serves as platform for creating and managing virtual databases
-    – customized views over data from multiple heterogenous sources
-    (the ones listed below), used mostly for data analytics / business
-    intelligence purposes.<br/><br/>
-
-    Overall, the technical work is similar to that on JBoss EAP, I‘ll just list the
-    used technologies and DV-specific functionality here
-    <ul class="resume-item-list">
-      <li>Traditional relational databases (Oracle, PostgreSQL, MySQL,
-    Microsoft, IBM DB2, SAP HANA, Sybase) </li>
-      <li>NoSQL databases and tools (MongoDB, Cassandra, Couchbase,
-    HBase)</li>
-      <li>Querying engines (Impala, Presto)</li>
-      <li>Data warehousing (Apache Hive, Netezza, Amazon Redshift)</li>
-      <li>Data analytics and processing platforms (Apache Spark, Vertica)</li>
-      <li>Other data storage and exchange tech - CSV, Google Spreadsheets, XML, OData (Apache Olingo)</li>
-    </ul>
-
-- company: Red Hat
-  position: Principal Software Engineer - Quarkus, SmallRye
-  duration:   Nov 2018 (Principal since April 2023) &mdash; Present
-  summary: |
-    Quarkus work
-    <ul class="resume-item-list">
-      <li>Engineering work on Quarkus, a platform for developing cloud-native microservices in Java, Scala and Kotlin</li>
-      <li>Work on the Quarkus LangChain4j extension (integrating the world of LLMs into Quarkus) and LangChain4j itself. For example, I implemented the MCP (Model Context Protocol) client capabilities in LangChain4j.</li>
-      <li>Lead developer of GraphQL capabilities (server+client)</li>
-      <li>Lead developer of MicroProfile Metrics capabilities</li>
-      <li>In charge of CVE (security issues) management and improving the related processes, making sure all relevant security issues are fixed in a timely manner, including embargoed ones</li>
-      <li>Maintaining parts of the product-building infrastructure (deployed in OpenShift)</li>
-      <li>Coordination of LTS releases (deciding which fixes to backport to older streams, making sure the backports don't break anything, performing the actual releases)</li>
-    </ul>
-
-    MicroProfile related work
-    <ul class="resume-item-list">
-      <li>One of the main drivers behind the MicroProfile Metrics specification under the Eclipse foundation - working
-        together with other vendors (mostly IBM and Oracle)</li>
-      <li>Project lead of SmallRye Metrics, an implementation of MicroProfile Metrics</li>
-      <li>Work on GraphQL, both client and server side</li>
-      <li>Contributing to implementations of other MicroProfile components (Config, Health, Fault Tolerance, OpenTracing, GraphQL)</li>
-      <li>Cross-functional collaboration: being a liaison for the WildFly team for their integration of MicroProfile components</li>
-    </ul>
-
-    Hawkular Metrics related work
-    <ul class="resume-item-list">
-      <li>Hawkular Metrics is a monitoring solution for applications deployed in an OpenShift cluster. It's based on
-        a Cassandra database and uses a reactive backend using rxjava.</li>
-      <li>Assignments - Sustaining engineering work on Hawkular Metrics (fixing problems reported by customers)</li>
-    </ul>
-
