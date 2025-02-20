@@ -6,7 +6,7 @@
   topic: "Quarkus: Java development turned into delight"
   duration: January 2020
 
-- name: JNation (Coimbra, Portugal)
+- name: JNation 2022 (Coimbra, Portugal)
   topic: "Writing Queryable APIs with GraphQL"
   duration: June 2022
 
@@ -21,3 +21,7 @@
 - name: DevConf.cz (Brno, Czech Republic)
   topic: "Quarkus meets AI: Developing AI applications in Java with Quarkus and Langchain4j"
   duration: June 2024
+
+- name: Moderní stack vol. 5 (Ostrava, Czech Republic)
+  topic: "Quarkus meets AI: Developing AI applications in Java with Quarkus and Langchain4j"
+  duration: October 2024

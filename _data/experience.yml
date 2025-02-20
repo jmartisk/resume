@@ -70,10 +70,12 @@
     Quarkus work
     <ul class="resume-item-list">
       <li>Engineering work on Quarkus, a platform for developing cloud-native microservices in Java, Scala and Kotlin</li>
-      <li>Work on the Quarkus LangChain4j extension (integrating the world of LLMs into Quarkus)</li>
+      <li>Work on the Quarkus LangChain4j extension (integrating the world of LLMs into Quarkus) and LangChain4j itself. For example, I implemented the MCP (Model Context Protocol) client capabilities in LangChain4j.</li>
       <li>Lead developer of GraphQL capabilities (server+client)</li>
       <li>Lead developer of MicroProfile Metrics capabilities</li>
-      <li>In charge of CVE (security issues) management</li>
+      <li>In charge of CVE (security issues) management and improving the related processes, making sure all relevant security issues are fixed in a timely manner, including embargoed ones</li>
+      <li>Maintaining parts of the product-building infrastructure (deployed in OpenShift)</li>
+      <li>Coordination of LTS releases (deciding which fixes to backport to older streams, making sure the backports don't break anything, performing the actual releases)</li>
     </ul>
 
     MicroProfile related work
@@ -82,7 +84,8 @@
         together with other vendors (mostly IBM and Oracle)</li>
       <li>Project lead of SmallRye Metrics, an implementation of MicroProfile Metrics</li>
       <li>Work on GraphQL, both client and server side</li>
-      <li>Contributing to implementations of other MicroProfile components (Config, Health, Fault Tolerance, OpenTracing)
+      <li>Contributing to implementations of other MicroProfile components (Config, Health, Fault Tolerance, OpenTracing, GraphQL)</li>
+      <li>Cross-functional collaboration: being a liaison for the WildFly team for their integration of MicroProfile components</li>
     </ul>
 
     Hawkular Metrics related work
